@@ -25,6 +25,7 @@ function App() {
         {currentQuestion ? (
           <Question
             question={currentQuestion}
+            setQuestions={setQuestions}
             onAnswered={handleQuestionAnswered}
           />
         ) : (
